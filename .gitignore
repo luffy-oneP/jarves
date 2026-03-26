@@ -1,0 +1,31 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.venv
+venv/
+.venv/
+
+# Environment files
+.env
+.env.*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs and runtime
+logs/
+*.log
+
+# Data and cache
+data/
+.cache/
+
+# Optional: local addon files
+config/llm.yaml
