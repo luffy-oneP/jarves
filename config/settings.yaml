@@ -1,0 +1,22 @@
+# Jarves Configuration
+
+name: Jarves
+user_name: Rudran
+ai_model: llama3.2
+ollama_url: http://localhost:11434
+
+# Features
+voice_enabled: true
+wake_word: "hey jarves"
+
+# Logging
+log_level: INFO
+log_file: logs/jarves.log
+
+# Auto-features
+auto_organize: false
+auto_backup: true
+
+# Security
+confirm_destructive: true
+safe_mode: true
